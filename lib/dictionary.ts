@@ -20,7 +20,7 @@ export class Dictionary<T, K = string> {
         return this._items.get(key);
     }
 
-    public get size() {
+    public get size(): number {
         return this._items.size;
     }
 
